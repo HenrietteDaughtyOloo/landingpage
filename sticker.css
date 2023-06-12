@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.sticky{
+   position: fixed;
+   top: 0;
+}
+
+section{
+    /* background-color: #1ea2eb; */
+    background-color:#2c0b24;
+    color: white;
+    align-items: center;
+    height: 100vh;
+    }
+    /*#647295*/
+   
+
+    section > h1{
+        font-size: 6vw;
+     }
+     section:nth-child(even){
+        background-color: #2c0b24;
+     }
+     #navigation {
+        height: 80px;
+        width: 100%;
+        background-color: #E9D8E4;
+        /* background-color: #111; */
+        color: white;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center; 
+     }
+     nav li{
+        display: inline-block;
+        color: white;
+        padding: 16px 40px;
+        border-right: 1px solid #3f3f3f;
+     }
+
+     /* #navigation:not(.sticky){
+        position: absolute;
+        bottom: 0;
+
+     } */
+     #homeSection{
+      
+      
+      margin-top: 5%;
+      height: 100vh;
+       }
+       #homed{
+         display: flex;
+      justify-content: space-between;
+       }
+       #aboutbtn{
+         margin-left: 100vh;
+         margin-top:0%;
+       }
+  
+     #nameAndPic{
+      display: flex;
+      justify-content: space-between;
+      padding: 3%;
+      margin-left: 10%;
+      margin-top: 10%;
+     }
+     #picture{
+      border-radius: 60vh;
+      margin-left: 15%;
+      /* border-radius: 50%; */
+      width: 70%;
+     }
+     #name{
+      margin: auto;
+      color:white;
+      font-weight: bolder;
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+     }
+     #dedicated1{
+      margin-left:30%;
+      font-size: x-large;
+      color: white;
+     }
+     #about{
+      width:100px;
+      padding: 15px;
+      /* background-color:; */
+      color: white;
+      border-radius: 300px;
+     }
+     #unleash{
+      margin-top: 0%;
+     }
+     #picture2{
+      border-radius: 60vh;
+      margin-left: 15%;
+      margin-top: 5%;
+      /* border-radius: 50%; */
+      width: 60%;
+     }
+     #aboutMe{
+      display: flex;
+      justify-content: space-between;
+     }
+     #aboutMe h2{
+      font-family: Arial, Helvetica, sans-serif;
+     }
+     #dedicated{
+      margin-left:10%;
+     }
+     #words{
+      margin-left: 3%;
+      width: 100%;
+     }
+

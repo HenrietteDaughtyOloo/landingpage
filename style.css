@@ -1,0 +1,222 @@
+@keyframes bounce{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section{
+  /* background-color: #1ea2eb; */
+/* background-color: #ebbbdc; */
+background-color: rgb(236, 234, 234);
+/* background-color: #647295; */
+/* background-color: #c0A9BD; */
+color: white;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+}
+
+#home{
+  background-image: url(Images/pictured7.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+
+}
+ul li{
+  display: inline-block;
+  padding: 16px 40px;
+  color: white;
+  text-decoration: none;
+  /* border-right: solid #3f3f3f; */
+  
+}
+ul, a{  
+  text-decoration: none;  
+  color: white;  
+  font-family: Arial, Helvetica, sans-serif;  
+  }  
+#dropdown a{
+  /* border-right: greenyellow; */
+  display: block;
+}
+#cover{
+  width: 105%;
+  margin-left: -25px;
+  /* margin-right: 10%; */
+  border-radius: 5%;
+}
+#dedicated1{
+  margin-left: 50%;
+  padding-top: 19%;
+ font-size: x-large;
+  color:black;
+ }
+ #dedicated2{
+  margin-left: 50%;
+  /* padding-top: 25%; */
+ font-size: x-large;
+  color:black;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  /* animation-iteration-count:inherit; */
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+ }
+ #dedicated3{
+  margin-left: 50%;
+  /* padding-top: 25%; */
+ font-size: x-large;
+  color:black;
+  /* position: relative;
+  animation-name:pop;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  /* animation-iteration-count:inherit; */
+  /* animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); */ 
+
+ }
+
+
+.fixedNav{
+  position: fixed;
+  min-width: 289px;
+  margin-top: 0px;
+  left: 0px;
+  height: 100vh;
+
+
+}
+#navigation{
+  font-size: medium;
+  width: 10%;
+  background-color: #2c0b24;
+  /* background-color: #111; */
+/* background-color: purple; */
+/* background-color: #94a7ae; */
+color: white;
+  text-transform: uppercase;
+  align-items: center;  
+
+}
+#contIcon{
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  /* color: #111; */
+}
+
+#about{
+  background-image: url(Images/pictured8.jpg);
+  background-size: 100%;
+}
+#embark{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#picture2{
+  border-radius: 70vh;
+  margin-left: 10%;
+  margin-top: 50%;
+  /* border-radius: 50%; */
+  width: 90%;
+
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  /* animation-iteration-count:inherit; */
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+ }
+ #lang{
+  color: #4b1f40;
+  font-weight: bolder;
+  margin-left: 3%;
+ }
+
+#aboutMe{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ #dedicated{
+  margin-left:10%;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ #words{
+  margin-left: 25%;
+  font-size: larger;
+  width: 50%;
+  color: black;
+  margin-top: 10%;
+  border: solid rgb(14, 13, 13) 2px;
+  border-radius: 5px;
+ }
+
+ #words1{
+  margin-left: 25%;
+  font-size: larger;
+  /* font-weight: bolder; */
+  width: 50%;
+  color: black;
+  border: solid 5px whitesmoke;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  opacity: 0.5;
+
+  /* position: relative;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  /* animation-iteration-count:inherit; */
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); 
+
+ }
+ #words2{
+  margin-left: 5%;
+  margin-right: 3%;
+  font-size: larger;
+  width: 50%;
+  color: black;
+  border: solid 5px whitesmoke;
+  background-color: whitesmoke;
+  opacity: 0.5;
+  border-radius: 30px;
+
+  /* position: relative;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  /* animation-iteration-count:inherit; */
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); 
+
+  
+ }
+ #words1  a{
+  color: black;
+ }
+ #words2 a{
+  color: black;
+ }
+#theProjects{
+  display: flex;
+  /* justify-content: space-between; */
+}
+#projects{
+  color: #111;
+  text-align: center;
+}
+#black{
+  color: black;
+}
